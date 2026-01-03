@@ -1,0 +1,100 @@
+/* Main container */
+.container {
+  padding: 60px 80px;
+  background-color: #f9f9f9;
+}
+
+/* Section title */
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+/* Description text */
+.description {
+  max-width: 700px;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+/* Skills list wrapper */
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+/* Individual skill block */
+.skill {
+  width: 100%;
+}
+
+/* Skill name & percentage */
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.info h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #222;
+}
+
+.info p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Progress bar background */
+.a {
+  width: 100%;
+  height: 8px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Progress bar fill */
+.b {
+  height: 100%;
+  background-color: #00c896;
+  border-radius: 10px;
+  transition: width 0.6s ease;
+}
+
+/* Optional individual colors (if you want) */
+.b.html {
+  background-color: #e34c26;
+}
+
+.b.css {
+  background-color: #264de4;
+}
+
+.b.javascript {
+  background-color: #f0db4f;
+}
+
+.b.react {
+  background-color: #61dafb;
+}
+
+.b.node {
+  background-color: #68a063;
+}
+.skill-name {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.skill-icon {
+  font-size: 18px;
+  color: #00c896;
+}

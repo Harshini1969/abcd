@@ -1,0 +1,98 @@
+/* Main Home container */
+.home {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 80px;
+  background-color: #f8f9fa;
+}
+
+/* Left content */
+.home-content {
+  max-width: 55%;
+}
+
+/* Name heading */
+.home-title {
+  font-size: 46px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+/* Role text */
+.home-role {
+  font-size: 22px;
+  font-weight: 500;
+  color: #00c896;
+  margin-bottom: 15px;
+}
+
+/* Description paragraph */
+.home-description {
+  max-width: 520px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* About Me button */
+.home-button {
+  width: fit-content;
+  padding: 12px 28px;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: #00c896;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Button hover effect */
+.home-button:hover {
+  background-color: #009f75;
+  transform: translateY(-2px);
+}
+
+/* Right image container */
+.home-image-container {
+  max-width: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Profile image */
+.home-image {
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #00c896;
+}
+
+/* 🔹 Responsive design */
+@media (max-width: 900px) {
+  .home {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .home-content {
+    max-width: 100%;
+  }
+
+  .home-description {
+    max-width: 100%;
+  }
+
+  .home-image {
+    width: 240px;
+    height: 240px;
+    margin-bottom: 30px;
+  }
+}

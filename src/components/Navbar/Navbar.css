@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  background-color: #111;
+}
+
+/* Logo */
+.navbar-logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Links container */
+.navbar-links {
+  display: flex;
+  gap: 40px; /* 🔥 THIS CONTROLS DISTANCE */
+}
+
+/* Individual links */
+.navbar-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.navbar-links a:hover {
+  color: #00c896;
+}
