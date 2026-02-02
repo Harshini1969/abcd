@@ -43,7 +43,7 @@ function Resume() {
         {/* RIGHT SIDE IMAGE (ONLY WHEN  BUTTON IS NOT CLICKED) */}
         {activate === null && (
           <div className="resume-image">
-            <img src="/download.png" alt="" />
+            <img src="/download.png" alt="Harshini" />
           </div>
         )}
 

@@ -25,7 +25,7 @@ function Home() {
           </div>
 
           <div className="home-image-container">
-            <img src="/Photo.jpg.jpeg" className="home-image" alt="" />
+            <img src="/Photo.jpg.jpeg" className="home-image" alt="Harshiniimg" />
           </div>
         </div>
       </section>
