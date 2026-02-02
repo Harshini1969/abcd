@@ -56,7 +56,7 @@ function Education() {
       </div>
      
        <div className="education-image">
-        <img src="/Edu.jpg"  />
+        <img src="/Edu.jpg" alt="" />
       </div>
 
     </div>
