@@ -16,7 +16,7 @@
 /* Links container */
 .navbar-links {
   display: flex;
-  gap: 40px; /* 🔥 THIS CONTROLS DISTANCE */
+  gap: 40px; 
 }
 
 /* Individual links */

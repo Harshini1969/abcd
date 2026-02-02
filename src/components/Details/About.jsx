@@ -31,9 +31,7 @@ function About() {
        </button>
       </div>
       
-       <div className="about-image">
-        <img src="/Photo.jpg.jpeg"  />
-      </div>
+     
 
     </div>
   )

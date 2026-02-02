@@ -1,10 +1,9 @@
-/* Main container */
 .container {
   padding: 60px 80px;
   background-color: #f9f9f9;
+  text-align: center;
 }
 
-/* Section title */
 .title {
   font-size: 36px;
   font-weight: 700;
@@ -12,28 +11,28 @@
   color: #222;
 }
 
-/* Description text */
 .description {
   max-width: 700px;
   font-size: 16px;
   line-height: 1.7;
   color: #555;
-  margin-bottom: 40px;
+  margin: 0 auto 40px auto;
 }
 
-/* Skills list wrapper */
 .grid {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 25px;
+  justify-content: space-between;
+  flex-direction: row;
 }
 
-/* Individual skill block */
 .skill {
+  flex: 1 1 45%;
+  min-width: 250px;
   width: 100%;
 }
 
-/* Skill name & percentage */
 .info {
   display: flex;
   justify-content: space-between;
@@ -51,7 +50,6 @@
   color: #555;
 }
 
-/* Progress bar background */
 .a {
   width: 100%;
   height: 8px;
@@ -60,7 +58,6 @@
   overflow: hidden;
 }
 
-/* Progress bar fill */
 .b {
   height: 100%;
   background-color: #00c896;
@@ -68,7 +65,6 @@
   transition: width 0.6s ease;
 }
 
-/* Optional individual colors (if you want) */
 .b.html {
   background-color: #e34c26;
 }
@@ -88,6 +84,7 @@
 .b.node {
   background-color: #68a063;
 }
+
 .skill-name {
   display: flex;
   align-items: center;

@@ -1,34 +1,55 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
 import './Home.css'
 
+import About from '../Details/About'
+import Skills from '../Resume/Skills'
+import Project from '../Project/Project'
+import Contact from '../Details/Contact'
+
 function Home() {
-  let navigate = useNavigate()
-
   return (
-    <div className="home">
-      
-      <div className="home-content">
-        <h1 className="home-title">Hello, I am Harshini Narahari</h1>
+    <>
+      {/* HOME SECTION */}
+      <section id="home">
+        <div className="home">
+          <div className="home-content">
+            <h1 className="home-title">Hello, I am Harshini Narahari</h1>
+            <h4 className="home-role">MERN Stack Developer</h4>
+            <p className="home-description">
+              Passionate about building full-stack web applications with modern technologies.
+            </p>
 
-        <h4 className="home-role">MERN Stack Developer</h4>
+            <a href="#about" className="home-button">
+              About Me
+            </a>
+          </div>
 
-        <p className="home-description">
-          Passionate about building full-stack web applications with modern technologies.
-        </p>
+          <div className="home-image-container">
+            <img src="/Photo.jpg.jpeg" className="home-image" />
+          </div>
+        </div>
+      </section>
 
-        <button
-          className="home-button"
-          onClick={() => navigate('/about')}
-        >
-          About Me
-        </button>
-      </div>
-      <div className="home-image-container">
-          <img src="/Photo.jpg.jpeg"  className="home-image" /> 
-      </div>
+      {/* ABOUT SECTION */}
+      <section id="about">
+        <About />
+      </section>
 
-    </div>
+      {/* SKILLS SECTION */}
+      <section id="skills">
+        <Skills />
+      </section>
+
+      {/* PROJECTS SECTION */}
+      <section id="projects">
+        <Project />
+      </section>
+
+      {/* CONTACT SECTION */}
+      <section id="contact">
+        <Contact />
+      </section>
+    </>
   )
 }
 

@@ -1,5 +1,5 @@
 import React from "react";
-import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNodeJs,} from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNodeJs, FaDatabase } from "react-icons/fa";
  import "./Skills.css";
 
 function Skills() {
@@ -9,6 +9,7 @@ function Skills() {
     { name: "JavaScript", level: 80, icon: <FaJsSquare /> },
     { name: "React", level: 75, icon: <FaReact /> },
     { name: "Node", level: 70, icon: <FaNodeJs /> },
+    {name:"Mongodb", level:80, icon: < FaDatabase />}
   ];
 
   return (

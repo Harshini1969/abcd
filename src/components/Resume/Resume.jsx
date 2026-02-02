@@ -29,7 +29,7 @@ function Resume() {
               Education
             </button>
           </div>
-` `
+
           <div className="resume-content">
             {activate === "skills" && <Skills />}
             {activate === "education" && <Education />}
